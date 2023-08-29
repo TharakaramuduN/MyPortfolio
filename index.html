@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                Tharakaramudu's Portfolio
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="FirstSection">
+            <div class="leftSection">
+                <h1>Hello!</h1>My name is
+                <span class="purple">Tharakaramudu</span>
+                <div><span id="element"></span></div>
+            </div>
+            <div class="rightSection"><img src="/Portfolio/images/pexels-photo-4709289.webp" width="550px"
+                    alt="developer img"></div>
+        </div>
+        <hr>
+        <div class="secondSection">
+            <div class="internship">
+                <div>
+                    <h2>Internship</h2>
+                </div>
+                <div class="internimage"><img src="/Portfolio/images/intern.jpg" alt="intern image"></div>
+            </div>
+            <p>Done one month internship in infiyoda solutions Pvt. Ltd.</p>
+            <div class="Education">
+                <div><h2>Education</h2></div>
+                <div class="educational_image"><img src="/Portfolio/images/education.png" alt="education image"></div>
+            </div>
+            <p>B.Tech. ME</p>
+            <p>Sri venkateswara college of engineering, Tirupati</p>
+            <div class="skills">
+                <div><h2>Skills</h2></div>
+                <div class="skills_image"><img src="/Portfolio/images/skills.png" alt="skills image"></div>
+            </div>
+            <ul class="skills_list">
+                <li>Python</li>
+                <li>SQL</li>
+                <li>HTML,CSS</li>
+                <li>SDLC,Agile Methodology</li>
+                <li>Git and Github</li>
+            </ul>
+
+        </div>
+        <div class="space"></div>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Element to contain animated typing -->
+
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['I am a Web Developer.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
