@@ -1,0 +1,22 @@
+
+.tech-stack{
+    border: none;
+    border-right: 1px solid black;
+    padding-right: 20px;
+}
+
+.skills{
+    margin-top: 50px;
+}
+
+@media (max-width:870px) {
+    .skills{
+        flex-direction: column;
+    }
+    .tech-stack{
+        border-right: none;
+        border-bottom: 1px solid black;
+        padding-right: 0;
+        padding-bottom: 8px;
+    }
+}
