@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/TharakaramuduN/MyPortfolio/static/css/main.5abbfed7.css",
+    "main.js": "/TharakaramuduN/MyPortfolio/static/js/main.087606cf.js",
+    "static/js/787.7da95b79.chunk.js": "/TharakaramuduN/MyPortfolio/static/js/787.7da95b79.chunk.js",
+    "static/media/Screenshot (220).png": "/TharakaramuduN/MyPortfolio/static/media/Screenshot (220).512e26616b8723b8d519.png",
+    "static/media/profilePhoto.jpg": "/TharakaramuduN/MyPortfolio/static/media/profilePhoto.54026eebfe5b8952cba4.jpg",
+    "static/media/softwareDeveloper.jpg": "/TharakaramuduN/MyPortfolio/static/media/softwareDeveloper.b103a13d175741192110.jpg",
+    "static/media/Todo.png": "/TharakaramuduN/MyPortfolio/static/media/Todo.359ef03927e22279f1f6.png",
+    "static/media/4518857_python_icon.png": "/TharakaramuduN/MyPortfolio/static/media/4518857_python_icon.448fb2a83595fa5c5c8a.png",
+    "static/media/django.ico": "/TharakaramuduN/MyPortfolio/static/media/django.548b725f6d5d1d61c3fd.ico",
+    "static/media/favicon.ico": "/TharakaramuduN/MyPortfolio/static/media/favicon.4fe75d5f9adb18067b85.ico",
+    "index.html": "/TharakaramuduN/MyPortfolio/index.html",
+    "main.5abbfed7.css.map": "/TharakaramuduN/MyPortfolio/static/css/main.5abbfed7.css.map",
+    "main.087606cf.js.map": "/TharakaramuduN/MyPortfolio/static/js/main.087606cf.js.map",
+    "787.7da95b79.chunk.js.map": "/TharakaramuduN/MyPortfolio/static/js/787.7da95b79.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5abbfed7.css",
+    "static/js/main.087606cf.js"
+  ]
+}
