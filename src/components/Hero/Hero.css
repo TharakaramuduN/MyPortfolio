@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+.poppins{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.hero-content{
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section{
+    height: 90vh;
+}
+
+@media (max-width:900px) {
+    .hero-section{
+        height: fit-content;
+    }
+    .hero-content{
+        text-align: center;
+        align-content:center;
+    }
+    .hero-content span{
+        justify-content: center;
+    }
+}

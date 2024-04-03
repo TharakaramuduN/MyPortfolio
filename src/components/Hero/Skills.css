@@ -1,0 +1,44 @@
+
+.tech-stack{
+    border: none;
+    border-right: 1px solid black;
+    padding-right: 20px;
+}
+
+.skills{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.logos{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+}
+
+.skill-logo{
+    height: 60px;
+    width: 60px;
+    
+}
+@media (max-width:900px) {
+    .skills{
+        flex-direction: column;
+    }
+    .skill-logo{
+        height: 50px;
+        width: 50px;
+        
+    }
+    .tech-stack{
+        border-right: none;
+        border-bottom: 1px solid black;
+        padding-right: 0;
+        padding-bottom: 8px;
+    }
+    .logos{
+        grid-template-columns: repeat(4,1fr);
+    }
+}
